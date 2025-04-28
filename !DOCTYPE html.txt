@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>犬の散歩代行サービス</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            background-color: #a8d5ba;
+            text-align: center;
+            padding: 1em;
+        }
+        nav {
+            margin: 1em 0;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        main {
+            padding: 2em;
+            background-color: #fff;
+            margin: 1em auto;
+            max-width: 800px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 20px;
+            background-color: #6abf69;
+            color: white;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        .section {
+            margin-bottom: 2em;
+        }
+
+        /* スマホ対応用のメディアクエリ */
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+            main {
+                padding: 1em;
+                margin: 0.5em;
+                width: 100%;
+                box-shadow: none;
+            }
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+            .button {
+                width: 100%;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>犬の散歩代行サービス</h1>
+    <p>あなたの大切なワンちゃんに、安心と楽しいお散歩を。</p>
+</header>
+
+<nav>
+    <a href="#plans">料金・コース</a>
+    <a href="#faq">よくある質問</a>
+    <a href="#voices">お客様の声</a>
+    <a href="#reservation">予約はこちら</a>
+</nav>
+
+<main>
+    <section id="plans" class="section">
+        <h2>料金・コース</h2>
+        <p>1時間コース：1,500円（税込）<br>
+           延長30分ごとに＋500円<br>
+           事前に公式LINEで相談をさせて頂いております。
+        </p>
+    </section>
+
+    <section id="faq" class="section">
+        <h2>よくある質問</h2>
+        <p><strong>Q. 散歩の時間帯は選べますか？</strong><br>A. はい、事前にご相談いただければ柔軟に対応可能です！</p>
+        <p><strong>Q. 支払い方法は？</strong><br>A. 散歩終了後に現金または振込でお支払いください。</p>
+    </section>
+
+    <section id="voices" class="section">
+        <h2>お客様の声</h2>
+        <p>"初めてお願いしましたが、丁寧に対応していただき安心できました！またお願いしたいです！"<br>
+        <small>女性・30代・Y.Kさん</small></p>
+        <p>"仕事が忙しい時期に助かりました。愛犬も大満足の様子でした♪"<br>
+        <small>男性・40代・T.Mさん</small></p>
+    </section>
+
+    <section id="reservation" class="section">
+        <h2>ご予約はこちら</h2>
+        <p>公式LINEから簡単にご予約できます。</p>
+        <a href="https://lin.ee/あなたのLINEリンク" class="button">LINEで予約する</a>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2025 犬の散歩代行サービス All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
